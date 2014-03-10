@@ -92,20 +92,187 @@ textarea {
    ========================================================================== */
 
 
+#wrapper {
+	width: 980px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 10px;
+	background-color:white;
+}
+#branding{
+	height: 84px;
+	width: 1000px;	
+}
 
+#primary_links	{
+	margin-top: -10px;
+	background-color: #3f8252;
+	height: 60px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	
+}
+#primary_links li {
+	margin-left: 80px;
+	display: inline;
+	text-decoration: none;
+}
 
+#primary_links ul {
+	margin-left: -170px;
 
+}
+#primary_links a {
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+#content {
+	text-align: center;
+	margin-top: 65px;
+	
+}
+#content h2 {
+	color: #666666;
+	font-size: 36px;
+	margin-bottom:-20px;
+	font-family: helvetica;
 
+}
+#content h3 {
+	color: #999999;
+	font-size: 16px;
+	font-family: helvetica;
+}
+#content h4 {
+	color: #339966;
+	font-size: 18px;
+	letter-spacing: 8px;
+	font-family: helvetica;
+}
 
+#logo {
+	float:left;
+}
+#bbb {
+	float:left;
+	height: 32px;
+	width: 121px;
+	margin-left: 280px;
+	margin-right: 50px;
+	margin-top: 18px;
+}
+#words {
+	float:left;
+	margin-top: 22px;
+	margin-left: 10px;
 
+}
+#callus {
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+}
+#ava {
+	font-size: 12px;
+	margin-left: 47px;
+	
+}
+#number{
+	font-size: 12px;
+	float: right;
+	font-weight: bold;
+	color: #3f8252;
+}
+#facebk {
+	clear:both;
+	margin-left:15px;
+}
+#facebook img {
+	margin-top: 19px;
+	margin-left: 15px;
+}
+#facebookbar {
+	font-family: helvetica;
+	background-color: #485e90;
+	height: 50px;
+	width: 860px;
+	border-radius: 10px;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 45px;
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+#welcome {
+	width:860px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#welcome h1 {
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: -10px;
+	width: 380px;
+}
 
-
-
-
-
-
-
-
+#welcome p {
+	font-family: helvetica;
+	float: left;
+	width: 400px;
+	font-size: 14px;
+}
+#welcome ul {
+	font-family: helvetica;
+	font-size: 14px;
+	float: right;
+	width: 400px;
+	margin-top: -5px
+	
+}
+#heating {
+	background-color: #cccccc;
+	height: 400px;
+	text-align: center;
+	width: 1700px;
+	margin-left: -360px;	
+}
+#heating h1 {
+	color: #cc3333;
+	font-size: 30pt;
+	font-family: helvetica;
+}
+#cooling {
+	height: 400px;
+	width: 980px;
+	text-align: center;
+}
+#cooling h1 {
+	color: #3399cc;
+	font-size: 30pt;
+	font-family: helvetica;
+}
+#aboutus {
+	background-color: #cccccc;
+	width: 980px;
+	text-align: center;
+	width: 1700px;
+	margin-left: -360px;
+}
+#aboutus h1 {
+	font-size: 30pt;
+	font-family: helvetica;
+}
 
 /* ==========================================================================
    Helper classes
