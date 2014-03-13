@@ -128,7 +128,7 @@ textarea {
 #primary_links a {
 	color: white;
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 13pt;
 	
 }
 #content {
@@ -168,22 +168,22 @@ textarea {
 }
 #words {
 	float:left;
-	margin-top: 22px;
+	margin-top: 15px;
 	margin-left: 10px;
 
 }
 #callus {
-	font-size: 12px;
+	font-size: 12pt;
 	font-weight: bold;
 	float: left;
 }
 #ava {
-	font-size: 12px;
+	font-size: 12pt;
 	margin-left: 47px;
 	
 }
 #number{
-	font-size: 12px;
+	font-size: 12pt;
 	float: right;
 	font-weight: bold;
 	color: #3f8252;
@@ -238,10 +238,94 @@ textarea {
 	float: right;
 	width: 400px;
 	margin-top: -5px
+}
+#table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 160px;
+	margin-bottom: 50px;
+	width: 860px;
+	height: 300px;
+	
+	border:2px solid white;
+	vertical-align: middle;
+	text-indent: 25px;
+	background-color: #f7f7f7;
+}
+#tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+#title  {
+	background-color: #7f8c8d;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+}
+#table td {
+	text-align: left;
+	color: #999999;
+	border: 1px solid #e9e9e9;
+	border-left: 3px solid white;
+	height: 41px;
+	font-family: Open Sans;
+	font-size: 14px;
+	white-space: nowrap;
+}
+#table th {
+	background-color: #7f8c8d;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 5px;
+	height: 67px;
+	border-left: 3px solid white;
+}
+#blue {
+	background-color: #2980b9;
+	width: 30px;
+
+}
+#blue_pos {
+	position: absolute;
+	top: 1135px;
+	text-align:center;
+}
+#red_pos {
+	position: absolute;
+	top: 1135px;
+	text-align:center;
+}
+#red {
+	background-color: #c0392b;
+	width: 30px;
+}
+#table red {
 	
 }
+#table .rotate {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	letter-spacing: 3px;
+	padding: 0;
+	color: white;
+	width: 30px;
+	text-align: center;
+}
+#seperator {
+	border-bottom: 3px solid white;
+}
+#seperator tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
 #heating {
-	background-color: #cccccc;
+	background-color: #eef1f5;
 	height: 400px;
 	text-align: center;
 	width: 1700px;
@@ -251,6 +335,10 @@ textarea {
 	color: #cc3333;
 	font-size: 30pt;
 	font-family: helvetica;
+}
+#heating p {
+	width: 980px;
+	margin-left: 350px;
 }
 #cooling {
 	height: 400px;
@@ -263,7 +351,7 @@ textarea {
 	font-family: helvetica;
 }
 #aboutus {
-	background-color: #cccccc;
+	background-color: #eef1f5;
 	width: 980px;
 	text-align: center;
 	width: 1700px;
@@ -273,6 +361,16 @@ textarea {
 	font-size: 30pt;
 	font-family: helvetica;
 }
+#aboutus p{
+	width: 980px;
+	margin-left: 350px;
+}
+#logos {
+	background-color: #eef1f5;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
