@@ -194,9 +194,12 @@ textarea {
 	font-weight: bold;
 	color: #3f8252;
 }
-#facebk {
+#facebook {
 	clear:both;
 	margin-left:15px;
+}
+#facebook img {
+	margin-top: 20px;
 }
 #likeuss {
 	float: left;
